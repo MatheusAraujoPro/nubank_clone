@@ -26,9 +26,9 @@ import {
 
 export default () => {
     return (
-      
-        <Container >
-            <Header/>
+       
+        <Container > 
+            <Header/>          
             <CardContainer>
                 <View style={{
                     height: 30
@@ -107,7 +107,7 @@ export default () => {
                         </Card>
                     </View>
 
-                    
+
                     <View style={{
                         height: 190,
                         marginTop: 10

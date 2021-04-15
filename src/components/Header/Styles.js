@@ -1,29 +1,45 @@
-import styled from 'styled-components/native'
-
-export const Title = styled.Text`
-  font-size: 13px;
-  font-weight: bold;
-  color: #999;
-`;
+import styled from 'styled-components/native';
 
 export const Container = styled.View`
-  flex: 1;
-  flex-direction: row
-  max-height: 80px;
-  border-width: 1
-  border-color: red
-  position: absolute
-  left: 30px;
-  top: 10px;
+  align-items: center;
+  padding: 40px 0 30px;
+  position: absolute;
+  top: 0;
+  left: 30;
+  flex-direction: row;
 `;
 
-export const ContentLeft = styled.View`
-  flex: 1;
-  max-width: 40px; 
+export const Top = styled.View`
+  flex-direction: row;
+  align-items: center;
 `;
 
-export const Content2 = styled.View`
-  flex: 1;
-  max-height: 400px;
-  z-index: 5;
+export const Title = styled.Text`
+  font-size: 18px
+  color: #FFF;
+  font-weight: bold;
+  font-family: Montserrat;
+  margin-left: 8px;
 `;
+
+export const IconContainer = styled.View`  
+  height: 40px;
+  width: 110px;
+  border-radius: 1;
+  margin-left: 115px;
+  flex-direction: row;
+  justify-content: space-between;
+
+`;
+
+export const IconView = styled.TouchableOpacity`
+  background-color: #FFF;
+  opacity:0.3;
+  height: 50px;
+  width: 50px;
+  border-radius: 100;
+  align-items: center;
+  justify-content: center;
+ 
+`;
+
