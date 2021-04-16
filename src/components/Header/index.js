@@ -21,10 +21,10 @@ export default () => {
             </Top>
             <IconContainer>
                 <IconView>
-                    <Icon name="eye" size={35} />
+                    <Icon name="eye" size={35} color="#FFF"/>
                 </IconView>
                 <IconView>
-                    <Icon name="gear" size={35} />
+                    <Icon name="gear" size={35} color="#FFF" />
                 </IconView>
             </IconContainer>
         </Container>

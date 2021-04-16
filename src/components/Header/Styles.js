@@ -15,7 +15,7 @@ export const Top = styled.View`
 `;
 
 export const Title = styled.Text`
-  font-size: 18px
+  font-size: 25px
   color: #FFF;
   font-weight: bold;
   font-family: Montserrat;
@@ -33,8 +33,7 @@ export const IconContainer = styled.View`
 `;
 
 export const IconView = styled.TouchableOpacity`
-  background-color: #FFF;
-  opacity:0.3;
+  background: rgba(255, 255, 255, 0.3);
   height: 50px;
   width: 50px;
   border-radius: 100;

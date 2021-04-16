@@ -2,10 +2,10 @@ import React from 'react';
 import { View } from 'react-native';
 import Icon from 'react-native-vector-icons/MaterialIcons'
 import {
-    Container,
-    TabItem,
-    TabText,
-    TabsContainer
+  Container,
+  TabItem,
+  TabText,
+  TabsContainer
 
 } from './styles'
 
@@ -13,9 +13,9 @@ import {
 
 export default () => {
   return (
-      <Container>
-          <TabsContainer>
-          <TabItem>
+    <Container>
+      <TabsContainer>
+        <TabItem>
           <Icon name="person-add" size={24} color="#FFF" />
           <TabText>Indicar Amigos</TabText>
         </TabItem>
@@ -35,8 +35,8 @@ export default () => {
           <Icon name="lock" size={24} color="#FFF" />
           <TabText>Bloquear Cartão</TabText>
         </TabItem>
-          </TabsContainer>
-      </Container>
-    )
+      </TabsContainer>
+    </Container>
+  )
 }
 

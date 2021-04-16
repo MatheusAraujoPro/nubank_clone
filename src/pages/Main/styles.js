@@ -13,7 +13,7 @@ export const CardScroll = styled.ScrollView`
 
 export const CardContainer = styled.ScrollView`
   height: 400px;
-  margin: 0 20px; 
+  margin: 0 15px; 
   left: 0;
   position: absolute
   right: 0;
@@ -30,7 +30,7 @@ export const Card = styled.View`
   flex: 1;
   background: #fff;
   border-radius: 4px;
-  margin: 0 20px;
+  margin: 0 10px;
   height: 100%;
   position: absolute;
   left: 0;
