@@ -2,6 +2,7 @@ import React from 'react';
 import { View, Text, ScrollView } from 'react-native';
 import Icon from 'react-native-vector-icons/MaterialIcons'
 import Header from '../../components/Header/index'
+import Footer from '../../components/Footer/index' 
 import {
     Container,
     Content,
@@ -131,8 +132,9 @@ export default () => {
                             </CardContent>
                         </Card>
                     </View>
-                </CardScroll>
+                </CardScroll>         
             </CardContainer>
+            <Footer/>
         </Container>
     )
 }
