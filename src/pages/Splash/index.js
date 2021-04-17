@@ -22,15 +22,14 @@ export default () => {
     useEffect(() => {
         const timer = setTimeout(() => {           
             navigation.navigate('Main')  
-        }, 5000);
+        }, 3000);
         return () => clearTimeout(timer);  
     }, []);
 
     return (
         <Container>
             <Logo>
-                <Image                                             
-                    source={require('../../assets/Nubank.png')}/>
+                <Image source={require('../../assets/Nubank.png')}/>
             </Logo>
         </Container>
     )

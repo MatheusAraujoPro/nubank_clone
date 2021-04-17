@@ -50,7 +50,7 @@ export default () => {
                             <CardContent>
                                 <Title>Fatura Atual</Title>
                                 <Description>
-                                    R$ <Strong>00,00</Strong>
+                                    R$ <Strong>0,00</Strong>
                                 </Description>
                                 <SubDescription>
                                     Limite Disponível{''}
@@ -59,55 +59,6 @@ export default () => {
                             </CardContent>
                         </Card>
                     </View>
-
-                    <View style={{
-                        height: 190,
-                        marginTop: 10
-                    }}>
-                        <Card>
-                            <CardHeader>
-                                <Icon name="local-atm" size={30} color="#666" style={{
-                                    paddingLeft: 15
-                                }} />
-                                <DescriptionHeader>Conta</DescriptionHeader>
-                            </CardHeader>
-                            <CardContent>
-                                <Title>Saldo Disponível</Title>
-                                <Description>
-                                    <Strong style={{
-                                        color: 'black'
-                                    }}>
-                                        R$ 200,00
-                            </Strong>
-                                </Description>
-                            </CardContent>
-                        </Card>
-                    </View>
-
-                    <View style={{
-                        height: 190,
-                        marginTop: 10
-                    }}>
-                        <Card>
-                            <CardHeader>
-                                <Icon name="local-atm" size={30} color="#666" style={{
-                                    paddingLeft: 15
-                                }} />
-                                <DescriptionHeader>Conta</DescriptionHeader>
-                            </CardHeader>
-                            <CardContent>
-                                <Title>Saldo Disponível</Title>
-                                <Description>
-                                    <Strong style={{
-                                        color: 'black'
-                                    }}>
-                                        R$ 200,00
-                            </Strong>
-                                </Description>
-                            </CardContent>
-                        </Card>
-                    </View>
-
 
                     <View style={{
                         height: 190,

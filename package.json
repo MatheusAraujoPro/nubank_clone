@@ -1,6 +1,11 @@
 {
   "name": "nubankClone",
   "version": "0.0.1",
+  "author": {
+    "name": "Matheus de Araújo Leite",
+    "email":"matheusaraujo.ti10@gmail.com",
+    "linkdin": "https://www.linkedin.com/in/matheus-araujo-201785a9/"
+  },
   "private": true,
   "scripts": {
     "android": "react-native run-android",
