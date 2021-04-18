@@ -1,5 +1,7 @@
 # Nubank_Clone
+![Screens](https://github.com/MatheusAraujoPro/assets/blob/master/NubankScreens.png)
 ---
+
 
 # Sobre o Projeto
 - O Nubank Clone nasceu com a necessidade de por as minhas próprias habilidades a prova, bem como ajudar a outros devs 
